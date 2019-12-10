@@ -7,6 +7,7 @@ package clases;
  * @author CYBER-SERVER
  *
  */
-public class Estudiante {
-
+public class Estudiante extends Persona{
+  //atrib
+  int const Codigo;
 }
