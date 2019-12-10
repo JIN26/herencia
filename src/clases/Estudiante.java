@@ -9,5 +9,20 @@ package clases;
  */
 public class Estudiante extends Persona{
   //atrib
-  int const Codigo;
+  private int const Codigo;
+  
+  //constructores 
+  public Estudiante(){
+    this.codigo = 0;
+  }
+  public Estuante(int Codigo){
+    this.codigo = codigo;
+  }
+  //metodos
+  public void setCodigo(int Codigo){
+    this.codigo=codigo;
+  }
+  public int getCodigo(){
+    return this.codigo;
+  }
 }
