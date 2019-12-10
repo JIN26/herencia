@@ -7,7 +7,7 @@ package clases;
  * @author CYBER-SERVER
  *
  */
-public class Ipersona {
+public interface Ipersona {
   //metodos
   public void tipoPersona(){
     system.out.print("listo");
