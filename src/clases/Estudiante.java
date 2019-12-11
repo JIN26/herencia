@@ -9,18 +9,20 @@ package clases;
  */
 public class Estudiante extends Persona implements Ipersona {
   //atrib
-  private int const Codigo;
+	private static int conta=0;
+	private int codigo;
   
   //constructores 
   public Estudiante(){
     super();
-    this.codigo = 0;
+    this.codigo = conta++;
   }
-  public Estuante(int Codigo){
-    this.codigo = codigo;
+  public Estudiante(String nombre,String apellido,int cedula,Direccion direccion){
+	  super(nombre,apellido,cedula,direccion);
+	  this.codigo = conta++;
   }
   //metodos
-  public void setCodigo(int Codigo){
+  public void setCodigo(int codigo){
     this.codigo=codigo;
   }
   public int getCodigo(){
